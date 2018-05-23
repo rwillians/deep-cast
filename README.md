@@ -5,10 +5,13 @@ Casts a given set o properties from a given object or array using a given callba
 
 ## Usage
 
-```js
-const { util } = require('util')
+Test on [RunKit](https://runkit.com/rwillians/deepcast-sample).
 
-const cast = require('deep-cast')({
+```js
+const { inspect } = require('util')
+const dc = require("deep-cast")
+
+const cast = dc({
   /**
    * Will parse the property at path 'a.c.d' to unix time.
    */
@@ -63,7 +66,7 @@ const data3 = [{
   f: 'baz'
 }]
 
-console.log('data1:', inspect(cast(data1), false, null))
-console.log('data2:', inspect(cast(data2), false, null))
-console.log('data3:', inspect(cast(data3), false, null))
+console.log('data1:', cast(data1))
+console.log('data2:', cast(data2))
+console.log('data3:', cast(data3))
 ```
