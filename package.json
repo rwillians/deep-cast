@@ -1,0 +1,26 @@
+{
+  "name": "deep-cast",
+  "version": "1.0.0",
+  "description": "Casts a given set o properties from a given object or array using a given callback.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwillians/deep-cast.git"
+  },
+  "keywords": [
+    "cast",
+    "deep",
+    "recursive",
+    "array",
+    "object"
+  ],
+  "author": "Rafael Willians <me@rwillians.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rwillians/deep-cast/issues"
+  },
+  "homepage": "https://github.com/rwillians/deep-cast#readme"
+}
